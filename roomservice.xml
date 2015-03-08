@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="gh" revision="cm-12.0" />
+	<project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="gh" revision="cm-12.0" />
+	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.0" />
+	<project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="gh" revision="cm-12.0" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="gh" revision="cm-12.0" />
+	<project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gh" revision="staging/cm-12.0" />
+	<project name="Khaon/vendor_khaon_misc" path="vendor/khaon_misc" remote="gh" revision="master" />
+	
+	
+	<project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="gh" revision="optipop" />
+	<project name="M1cha/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="gh" revision="staging/cm-12.0" />
+
+	<project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="gh" revision="khaon-new" />
+	<project name="M1cha/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="gh" revision="staging/cm-12.0" />
+	
+
+	<remove-project name="OptiPop/build" />
+	<project name="Khaon/android_build" path="build" remote="gh" revision="optipop" />	
+	
+	<project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+	
+	<remove-project name="platform/external/f2fs-tools" />
+	<project name="CyanogenMod/android_external_f2fs-tools" path="external/f2fs-tools" remote="gh" revision="cm-12.0" />
+	
+	<remove-project name="platform/system/vold" />
+	<project name="CyanogenMod/android_system_vold" path="system/vold" remote="gh" revision="cm-12.0" />
+	
+	<remove-project name="OptiPop/recovery" />    
+	<project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="gh" revision="android-5.0" /> 
+	
+	<remove-project name="OptiPop/system_core" />    
+	<project name="khaon/platform_system_core" path="system/core" remote="gh" revision="master" />  
+	
+	<project name="DirtyUnicorns/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="gh"  revision="lollipop" />
+	
+	<project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="gh" revision="master" />
+	<project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="gh" revision="cm-12.0" />
+	<project name="SaberMod/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" remote="gh" revision="master" />               
+</manifest>
