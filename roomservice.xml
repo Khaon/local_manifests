@@ -6,7 +6,7 @@
   <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-12.1" />
   <project name="Khaon/vendor_khaon" path="vendor/khaon" remote="github" revision="master" />
-  <project name="Khaon/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="marshmallow" />
+  <project name="Khaon/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="master" />
   <project name="platform/external/stlport" path="external/stlport" revision="master"/>
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project name="Khaon/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="marshmallow" />
@@ -20,5 +20,5 @@
   <project name="Khaon/android_system_vold" path="system/vold" remote="github" revision="master" />
   <remove-project name="platform/external/e2fsprogs"/>  
   <project name="Khaon/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master" />
-  <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" remote="github" revision="lollipop" />
+  <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
 </manifest>
