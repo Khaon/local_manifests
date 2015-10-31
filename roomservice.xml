@@ -21,4 +21,6 @@
   <remove-project name="platform/external/e2fsprogs"/>  
   <project name="Khaon/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master" />
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-6.0" />
+  <remove-project name="platform/external/sepolicy" />
+  <project name ="Khaon/android_external_sepolicy" path="external/sepolicy" remote="github" revision="master" />
 </manifest>
