@@ -12,8 +12,6 @@
   <project name="Khaon/android_hardware_invensense" path="hardware/invensense" remote="github" revision="master" />
   <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="marshmallow-scratch" />
   <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="master" />
-  <remove-project name="platform/external/sepolicy"/>
-  <project path="external/sepolicy" name="khaon/android_external_sepolicy" revision="master" remote="github"/>
   <project path="external/busybox" name="khaon/android_external_busybox" revision="master" remote="github"/>
   <remove-project name="platform/build"/>
   <project name="Khaon/platform_build" path="build" remote="github" revision="master" />
@@ -31,4 +29,7 @@
   <project name="khaon/android_system_vold" remote="github" revision="master" path="system/vold"/>
   <remove-project name="platform/system/extras"/>
   <project name="khaon/android_system_extras" remote="github" revision="master" path="system/extras"/>
+  <remove-project name="platform/system/sepolicy"/>
+  <project name="Khaon/android_system_sepolicy" remote="github" revision="master" path="system/sepolicy" />
+  <project name="Grouper-AOSP/android_device_asus_grouper" remote="github" revision="aosp-6.0" path="device/asus/grouper"/>
 </manifest>
